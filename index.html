@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UK Pictures | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/10fb6960b0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="topContainer">
+    <Header>
+      <div>
+        <div class="logo">
+          <a href="/">UK PICTURES</a>
+        </div>
+        <nav class="navbar">
+          <a href="#">Horror</a>
+          <a href="#">Hollywood Movies</a>
+          <a href="/factz" class="active">Factz</a>
+          <a href="#">Shorts</a>
+        </nav>
+      </div>
+    </Header>
+  </div>
+  <div style="border: 0.1px solid rgba(255, 255, 255, 0.205) "></div>
+  <div class="middleContainer">
+    <h1 id="titleId" class="videoTitle">1000 litre Coke</h1>
+    <h5 id="descId" class="videoDescription">What if we drink 1000 litre of Coke ?</h5>
+    <h6 id="ratingsId" class="videoRatings">Ratings : 7/10</h6>
+    <div class="iconsContainer">
+      <div class="playButton">
+        <i id="playButton" onclick="videoPlayer()" class="fas fa-play"></i>
+      </div>
+      <div class="youtubePlayButton">
+        <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+    <h6 id="briefId" class="videoBrief">Drinking of coke is a Fashion for all.<br>
+      Than Fashion there are <br>
+      side effects to our Body.
+    </h6>
+    <div class="scrollBar">
+      <div class="scrollItem">
+        <button class="imagebtn" onclick="coke()">
+          <img class="image1" src="/assets/cokeimgbg.png" alt="1000coke">
+        </button>
+        <h4 class="image1title">1000 litre Coke</h4>
+      </div>
+      <div class="scrollItem"> 
+        <button class="imagebtn" onclick="train()">
+          <img class="image1" src="/assets/railwaybg.png" alt="railway">
+        </button>
+        <h4 class="image1title">Fall on Track</h4>
+      </div>
+      <div class="scrollItem">
+        <button class="imagebtn" onclick="honey()">
+          <img class="image1" src="/assets/honeybg.png" alt="honey">
+        </button>
+        <h4 class="image1title">Apply Honey on Hair</h4>
+      </div>
+      <div class="scrollItem">
+        <div class="imagebtn" onclick="astrology()">
+          <img class="image1" src="/assets/josiyambg.png" alt="astrology">
+        </div>
+        <h4 style="margin-top: 10px;" class="image1title">Astrology Truth or Lie</h4>
+      </div>
+      <div class="scrollItem">
+        <button class="imagebtn" onclick="charge()">
+          <img class="image1" src="/assets/chargebg.jpg" alt="charge">
+        </button>
+        <h4 class="image1title">Don't charge Overnight</h4>
+      </div>
+      <div class="scrollItem">
+        <div class="imagebtn" onclick="pubgnew()">
+          <img class="image1" src="/assets/newpubgbg.png" alt="pubgnew">
+        </div>
+        <h4 style="margin-top: 10px;" class="image1title">New PUBG in India</h4>
+      </div>
+      <div class="scrollItem">
+        <div class="imagebtn" onclick="pubgaddict()">
+          <img class="image1" src="/assets/pubgaddictbg.png" alt="pubgaddict">
+        </div>
+        <h4 style="margin-top: 10px;" class="image1title">PUBG to COMA</h4>
+      </div>
+    </div>
+
+    <div id="videoModel" class="model">
+      <div class="model-content">
+        <span class="closeButton"><i onclick="closePlayer()" class="fas fa-window-close fa-xs"></i></span>
+        <video width="1310" height="550" id="videoPlayer" controls>
+          <source src="http://localhost:3000/video" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+  </div>
+ 
+</body>
+</html>

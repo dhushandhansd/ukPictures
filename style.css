@@ -1,0 +1,172 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Segoe UI';
+  color: #fff;
+}
+
+body {
+  background-image: url('assets/coke.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 95px;
+  width: 100%;
+}
+
+.topContainer {
+  width: 100%;
+  height: 95px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  width: 28%;
+  float: left;
+  line-height: 90px;
+  margin-left: 20px;
+}
+
+.logo a {
+  font-family: 'Segoe UI';
+  color: #E14E4E;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navbar {
+  line-height: 90px;
+}
+
+.navbar a {
+  font-size: 20px;
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: #E14E4E;
+}
+
+.middleContainer {
+  font-weight: 200;
+  font-size: 40px;
+  margin-left: 120px;
+}
+
+.videoTitle {
+  font-size: 2em;
+  font-weight: 400;
+  transition: opacity 0.3s ease;
+}
+
+.videoDescription {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.videoRatings {
+  font-size: .7em;
+  font-weight: 300;
+}
+
+.videoBrief {
+  max-width: 450px;
+  margin-top: 20px;
+  font-size: .7em;
+  font-weight: 300;
+}
+
+.iconsContainer {
+  width: 130px;
+  height: 60px;
+  margin-top: 15px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.playButton {
+  width: 50%;
+  height: 100%;
+  background-color: #E14E4E;
+}
+
+.fa-play{
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 20px;
+  padding: 0px;
+}
+
+.fa-youtube {
+  color: #e72828;
+  font-size: 2rem;
+  margin: 0px 0px 0px 15px;
+  padding: 0px;
+}
+
+.youtubePlayButton {
+  width: 50%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.scrollBar {
+  margin-top: 30px;
+  max-height: 185px;
+  margin-left: -100px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.scrollBar::-webkit-scrollbar {
+  width: 0;
+}
+
+.scrollItem {
+  margin-right: 30px;
+}
+
+.image1 {
+  width: 200px;
+  height: 110px;
+}
+
+
+.imagebtn {
+  border: 0;
+  height: 110px;
+}
+
+.image1title {
+  font-weight: 300;
+  font-size: .5em;
+}
+
+.model {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.model-content {
+  margin: 50px 0px 0px 10px ;
+  width: 1310px;
+  height: 550px;
+}
+
+.closeButton {
+  float: right;
+}
